@@ -10,11 +10,16 @@ public class Main{
 
         System.out.println("Bienvenido: " + name);
         
-        System.out.println("esto se cambio en github");
+        int valor = 873;
+        boolean bandera = false;
 
-        System.out.println("esto es un segundo parrafo alv");
-        
-        System.out.println("agregando los estilos");
+        if(valor > 850)
+            System.out.println("el valor obtenido es menor a la variable");
+
+        else 
+            System.out.println("el valor de la variable es menor a 850");
+
+
 
     }
 }
