@@ -8,16 +8,8 @@ public class Main{
         System.out.println("como te llamas?");
         String name = in.nextLine();
 
-        System.out.println("Bienvenido: " + name);
-        
-        int valor = 873;
-        boolean bandera = false;
-
-        if(valor > 850)
-            System.out.println("el valor obtenido es menor a la variable");
-
-        else 
-            System.out.println("el valor de la variable es menor a 850");
+        Persona joel = new PersonaImpl(name);
+        joel.sayName(name, new String("pito"));
 
 
 
